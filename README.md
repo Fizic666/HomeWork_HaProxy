@@ -45,7 +45,7 @@
 
 ![Название скриншота 1](https://github.com/Fizic666/HomeWork_HaProxy/blob/main/10_1.jpg)  
 
-Файл кофигурации Haproxy [zadani_1](https://github.com/Fizic666/HomeWork_HaProxy/blob/main/1_haproxy.cfg).
+Файл кофигурации [HaProxy](https://github.com/Fizic666/HomeWork_HaProxy/blob/main/1_haproxy.cfg).
 
 
 ### Задание 2
@@ -53,3 +53,9 @@
 - Настройте балансировку Weighted Round Robin на 7 уровне, чтобы первый сервер имел вес 2, второй - 3, а третий - 4
 - HAproxy должен балансировать только тот http-трафик, который адресован домену example.local
 - На проверку направьте конфигурационный файл haproxy, скриншоты, где видно перенаправление запросов на разные серверы при обращении к HAProxy c использованием домена example.local и без него.
+
+Скрин работы балансировщика
+
+![Название скриншота 1](https://github.com/Fizic666/HomeWork_HaProxy/blob/main/10_2.jpg)  
+
+Файл кофигурации [HaProxy](https://github.com/Fizic666/HomeWork_HaProxy/blob/main/2_haproxy.cfg).
